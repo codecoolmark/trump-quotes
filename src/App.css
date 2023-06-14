@@ -1,0 +1,7 @@
+.two-colums {
+  display: flex;
+}
+
+.two-colums > * {
+  width: 50%;
+}
