@@ -4,6 +4,8 @@ import { randomTrumpQuote } from "./trumpQuotes";
 export default function QuoteList1() {
     const [quotes, setQuotes] = useState([]);
 
+    console.log("QuoteList1:", quotes);
+
     useEffect(function() {
         const id = setTimeout(function() {
             const randomQuote = randomTrumpQuote();

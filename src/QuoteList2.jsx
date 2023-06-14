@@ -3,7 +3,8 @@ import { randomTrumpQuote } from "./trumpQuotes";
 
 export default function QuoteList2() {
     const [quotes, setQuotes] = useState([]);
-    console.log(quotes)
+
+    console.log("QuoteList2:", quotes);
 
 
     useEffect(function() {
